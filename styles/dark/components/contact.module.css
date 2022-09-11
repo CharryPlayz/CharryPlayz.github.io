@@ -1,0 +1,35 @@
+.form {
+    display: grid;
+    justify-content: center;
+}
+
+.input {
+    margin: 0;
+    width: 500px;
+    font-size: 20px;
+    padding-block: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-block: 10px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    transition: box-shadow .2s ease-in-out;
+}
+
+.input:hover,
+.input:focus {
+    box-shadow: inset 0 0 10px -2px black;
+}
+
+.textarea {
+    resize: none;
+}
+
+.submit {
+    cursor: pointer;
+}
+
+.submit:hover {
+    box-shadow: 0 0 10px -2px black;
+}
