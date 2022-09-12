@@ -1,6 +1,6 @@
 import { useTheme } from "../contexts/ThemeContext";
-import dark from "../styles/dark/components/navbarItem.module.css";
-import light from "../styles/light/components/navbarItem.module.css";
+import dark from "../styles/dark/components/navbarItem.module.scss";
+import light from "../styles/light/components/navbarItem.module.scss";
 
 type Props = {
   href: string;

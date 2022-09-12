@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Navbar from "../components/NavbarEN";
-import light from "../styles/light/home.module.css";
-import dark from "../styles/dark/home.module.css";
+import Navbar from "../components/Navbar";
+import light from "../styles/light/home.module.scss";
+import dark from "../styles/dark/home.module.scss";
 import { useTheme } from "../contexts/ThemeContext";
 import Badge from "../components/Badge";
 import Project from "../components/Project";
@@ -30,8 +30,9 @@ const Home = () => {
           <div className={darkTheme ? dark.text : light.text}>
             <p>
               Hey, My name is Maja Parašilovac. I am {age} years old and
-              recently started. I started with React and since then have made a
-              few projects that I unfortunately didn&apos;t keep track of.
+              recently started programming with with React and since then have
+              made a few projects that I unfortunately didn&apos;t keep track
+              of.
             </p>
           </div>
         </div>

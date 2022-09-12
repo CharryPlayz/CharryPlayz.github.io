@@ -1,5 +1,5 @@
-import light from "../styles/light/components/badge.module.css";
-import dark from "../styles/dark/components/badge.module.css";
+import light from "../styles/light/components/badge.module.scss";
+import dark from "../styles/dark/components/badge.module.scss";
 import { useTheme } from "../contexts/ThemeContext";
 import Image from "next/image";
 

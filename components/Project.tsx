@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useTheme } from "../contexts/ThemeContext";
-import dark from "../styles/dark/components/project.module.css";
-import light from "../styles/light/components/project.module.css";
+import dark from "../styles/dark/components/project.module.scss";
+import light from "../styles/light/components/project.module.scss";
 
 type Props = {
   title: string;

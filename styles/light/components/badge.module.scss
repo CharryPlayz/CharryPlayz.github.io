@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 0 0 black;
+  transition: box-shadow 0.2s ease-in-out;
+  padding-top: 4px;
+  margin-inline: 5px;
+
+  &:hover {
+    box-shadow: 0 0 10px -2px black;
+
+    .tooltip {
+      opacity: 1;
+    }
+  }
+}
+
+.tooltip {
+  color: rgb(40, 40, 40);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media (min-width: 1080px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0 black;
+    transition: box-shadow 0.2s ease-in-out;
+    padding-block: 10px;
+    padding-inline: 30px;
+    margin-inline: 5px;
+
+    &:hover {
+      box-shadow: 0 0 10px -2px black;
+
+      .tooltip {
+        opacity: 1;
+      }
+    }
+  }
+
+  .tooltip {
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+}
